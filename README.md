@@ -31,7 +31,7 @@ docker-compose -f grype.yml exec -T grype-scanner grype $(ImageName):$(ImageTag)
 
 ## updates
 
-- please check the following [version-2026](./README.md)
+- please check the following [version-2026](./version-2026/README.md)
 
 ## Reference
 - [grype-tool](https://github.com/anchore/grype)
