@@ -29,6 +29,9 @@ docker-compose -f grype.yml up -d
 docker-compose -f grype.yml exec -T grype-scanner grype $(ImageName):$(ImageTag) -o template -t grype-report.tmpl > report.html
 ```
 
+## updates
+
+- please check the following [version-2026](./README.md)
 
 ## Reference
 - [grype-tool](https://github.com/anchore/grype)
